@@ -1,0 +1,313 @@
+doctype html 
+html
+	head
+		title Index
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		//- meta(name="viewport" content="width=device-width, initial-scale=1")
+		//- <!--[if IE 8]>script(src='/ie.js')<![endif]-->
+		include head_style/_head_style
+	body
+		.wrapper
+			//- img.circle4(src="./images/boy.jpg" alt="boys")
+			include header/_header
+			.container
+				//- .bigslider
+				div#bslider.bx-wrapper
+					.big-slider__item
+						img(src="./images/pic/slider1.jpg" alt="slider")
+					
+					.big-slider__item
+						img(src="./images/pic/slider2.jpg" alt="slider")
+					
+					.big-slider__item
+						img(src="./images/pic/slider3.jpg" alt="slider")
+				.WSblock
+					.WSblock-block.WSblock-block__left
+						.WSblock-block__content
+							.WSblock-title
+								| Женщинам
+							ul.WSblock__list
+								li.WSblock__item
+									a(href="#").WSblock__href Парфюмерия
+								li.WSblock__item
+									a(href="#").WSblock__href Уход за волосами
+								li.WSblock__item
+									a(href="#").WSblock__href Уход за кожей
+								li.WSblock__item
+									a(href="#").WSblock__href Макияж
+								li.WSblock__item
+									a(href="#").WSblock__href Для ногтей
+						img.WSblock-block__img(src="./images/women.jpg" alt="women")
+					.WSblock-block.WSblock-block__right
+						.WSblock-block__content
+							.WSblock-title 
+								| Мужчинам
+							ul.WSblock__list
+								li.WSblock__item
+									a(href="#").WSblock__href Парфюмерия
+								li.WSblock__item
+									a(href="#").WSblock__href Уход за волосами
+								li.WSblock__item
+									a(href="#").WSblock__href Уход за кожей
+						img.WSblock-block__img(src="./images/man.jpg" alt="man")
+				.aboutBlock
+					ul.aboutBlock-list
+						li.aboutBlock-item
+							.aboutBlock__block
+								
+								.aboutBlock__blockimg
+									img.aboutBlock__img(src="./images/car.png" alt="car" width="34" height="26")
+								.aboutBlock-row
+									.aboutBlock-title Бесплатная доставка
+									.aboutBlock-descr 
+										div - по Москве от 2000р. бесплатно.
+										div - регионы России от 3000р. бесплатно.
+						li.aboutBlock-item
+							.aboutBlock__block
+								
+								.aboutBlock__blockimg
+									img.aboutBlock__img(src="./images/certificate.png" alt="certificate" width="32" height="32")
+								.aboutBlock-row
+									.aboutBlock-title 100% качество
+									.aboutBlock-descr Только подленная продукция, с декларацией соответствия.
+
+						li.aboutBlock-item
+							.aboutBlock__block
+								
+								.aboutBlock__blockimg
+									img.aboutBlock__img(src="./images/refresh.png" alt="refresh" width="32" height="22")
+								.aboutBlock-row
+									.aboutBlock-title Возврат и обмен без проблем
+									.aboutBlock-descr Гарантия возврата и обмена в течении 14 дней с момента покупки.
+				.caruselBlock
+					.caruselBlock-cont
+						.caruselBloct-title Рекомендуем
+					.carusel-slider
+						div#bx-recomend
+							.carusel-content
+								ul.button-tooltip__list
+									li.button-tooltip__item
+										.button-tooltip.button__news 
+											.button-tooltip__border
+												span.button-span New
+									li.button-tooltip__item
+										.button-tooltip.button__sale 
+											.button-tooltip__border
+												span.button-span -13%
+								.carusel__imgblock
+									img.carusel__img(src="./images/pic/item1.jpg" alt="item")
+								.carusel__star
+									i.fa.fa-star.active
+									i.fa.fa-star.active
+									i.fa.fa-star.active
+									i.fa.fa-star.active
+									i.fa.fa-star
+								.carusel__name 
+									a(href="#").carusel__nametitle 111Парфюм TOM FORD Tobacco Vanille
+								.carusel__price 13 400 - 23 900 р.
+							.carusel-content
+								ul.button-tooltip__list
+									li.button-tooltip__item
+										.button-tooltip.button__news 
+											.button-tooltip__border
+												span.button-span old
+								.carusel__imgblock
+									img.carusel__img(src="./images/pic/item2.jpg" alt="item")
+								.carusel__star
+									i.fa.fa-star.active
+									i.fa.fa-star.active
+									i.fa.fa-star.active
+									i.fa.fa-star.active
+									i.fa.fa-star.active
+								.carusel__name 
+									a(href="#").carusel__nametitle 222Духи Versace Pour Homme Men 100 ml тестер
+								.carusel__price 2 150 р.
+							.carusel-content
+								ul.button-tooltip__list
+									li.button-tooltip__item
+										.button-tooltip.button__sale 
+											.button-tooltip__border
+												span.button-span -5%
+								.carusel__imgblock
+									img.carusel__img(src="./images/pic/item3.jpg" alt="item")
+								.carusel__star
+									i.fa.fa-star.active
+									i.fa.fa-star.active
+									i.fa.fa-star.active
+									i.fa.fa-star
+									i.fa.fa-star
+								.carusel__name 
+									a(href="#").carusel__nametitle 333Крем Shiseido Benefiance Intensive Nourishing and Recovery cream
+								.carusel__price 2 150 р.
+							.carusel-content
+								.carusel__imgblock
+									img.carusel__img(src="./images/pic/item4.jpg" alt="item")
+								.carusel__star
+									i.fa.fa-star
+									i.fa.fa-star
+									i.fa.fa-star
+									i.fa.fa-star
+									i.fa.fa-star
+								.carusel__name 
+									a(href="#").carusel__nametitle 444Помада CHANEL Rouge Coco Shine
+								.carusel__price 
+									span.old-price 1 950
+									span.new-price  1 070 р.
+							.carusel-content
+								.carusel__imgblock
+									img.carusel__img(src="./images/pic/item1.jpg" alt="item")
+								.carusel__star
+									i.fa.fa-star.active
+									i.fa.fa-star.active
+									i.fa.fa-star.active
+									i.fa.fa-star.active
+									i.fa.fa-star
+								.carusel__name 
+									a(href="#").carusel__nametitle 555Парфюм TOM FORD Tobacco Vanille
+								.carusel__price 13 400 - 23 900 р.
+							.carusel-content
+								.carusel__imgblock
+									img.carusel__img(src="./images/pic/item2.jpg" alt="item")
+								.carusel__star
+									i.fa.fa-star.active
+									i.fa.fa-star.active
+									i.fa.fa-star.active
+									i.fa.fa-star.active
+									i.fa.fa-star.active
+								.carusel__name 
+									a(href="#").carusel__nametitle 666Духи Versace Pour Homme Men 100 ml тестер
+								.carusel__price 2 150 р.
+							.carusel-content
+								.carusel__imgblock
+									img.carusel__img(src="./images/pic/item3.jpg" alt="item")
+								.carusel__star
+									i.fa.fa-star.active
+									i.fa.fa-star.active
+									i.fa.fa-star.active
+									i.fa.fa-star
+									i.fa.fa-star
+								.carusel__name 
+									a(href="#").carusel__nametitle 777Крем Shiseido Benefiance Intensive Nourishing and Recovery cream
+								.carusel__price 2 150 р.
+							.carusel-content
+								.carusel__imgblock
+									img.carusel__img(src="./images/pic/item4.jpg" alt="item")
+								.carusel__star
+									i.fa.fa-star
+									i.fa.fa-star
+									i.fa.fa-star
+									i.fa.fa-star
+									i.fa.fa-star
+								.carusel__name 
+									a(href="#").carusel__nametitle 888Помада CHANEL Rouge Coco Shine
+								.carusel__price 
+									span.old-price 1 950
+									span.new-price  1 070 р.
+						.customNavigation
+							a(href="#").prevH
+								i.fa.fa-chevron-left
+							a(href="#").nextH
+								i.fa.fa-chevron-right
+				.bigBannerBlock
+					a(href="#")
+						img(src="./images/gift.jpg" alt="gift")
+				.otzBlock
+					.caruselBlock-cont.otz-title
+							.caruselBloct-title Отзывы покупателей
+					ul.otzBlock-list
+						li.otzBlock-item
+							.otzBlock-item__header
+								.otzHeader-title Полина Ковальская 
+									span.otzHeader-data 27/01/2016
+								.otz__star
+										i.fa.fa-star.active
+										i.fa.fa-star.active
+										i.fa.fa-star.active
+										i.fa.fa-star
+										i.fa.fa-star
+							.otzBlock-item__content Компания Ipsum боль сидеть амет, consectetur adipiscing элит, как sed сделать eiusmod tempor incididunt ут ет лаборе женский боль в Magna aliqua. Ут энимо объявление миним Нажмите для получения дополнительной информации, магазина nostrud exercitation ullamco лаборис ниси ут aliquip бывший советник commodo области... 
+								div.all-href
+									a(href="#").otzContent__href весь отзыв
+						li.otzBlock-item
+							.otzBlock-item__header
+								.otzHeader-title Виктория 
+									span.otzHeader-data 27/01/2016
+								.otz__star
+										i.fa.fa-star.active
+										i.fa.fa-star.active
+										i.fa.fa-star.active
+										i.fa.fa-star
+										i.fa.fa-star
+							.otzBlock-item__content Компания Ipsum боль сидеть амет, consectetur adipiscing элит, как sed сделать eiusmod tempor incididunt ут ет лаборе женский боль в Magna aliqua. Ут энимо объявление миним Нажмите для получения дополнительной информации, магазина nostrud exercitation ullamco лаборис ниси ут aliquip бывший советник commodo области... 
+								div.all-href
+									a(href="#").otzContent__href весь отзыв
+					.otzButtonsBlock
+						.otzButtons
+							a.otzButtons__href(href="#") все отзывы
+							button.btn.btn-gray написать отзыв
+				.inst
+					.instBlock.instBlock__sale
+						.caruselBlock-cont.inst-contTitle
+							.caruselBloct-title
+								img(src="./images/mail.png" alt="mail")
+								//- i.fa.fa-envelope-o
+						.instSale-title Скидка за подписку
+						.instSale-title__bottom Подпишись на рассылку и получи скидку
+						.instForm
+							form
+								.inputFormBlock
+									input.input-mail.input(type="text" placeholder="Ваш e-mail")
+									button.btn.btn-gray.btn-sale получить скидку
+								.inputFormBlock.inputFormBlock__radio
+								
+									label.label-radio 
+										
+										input.input-radio(type="radio" name="mail")
+										span Мужчинам
+
+									label.label-radio 
+										
+										input.input-radio(type="radio" name="mail")
+										span Женщинам
+										
+
+
+					.instBlock.instBlock__instagram
+						ul.instagram-list
+							li.instagram-item
+								a(href="#").instagram__href
+									img(src="./images/instagram.png" alt="inst")
+							li.instagram-item
+								a(href="#").instagram__href
+									img(src="./images/instagram-item1.jpg" alt="inst")
+							li.instagram-item
+								a(href="#").instagram__href
+									img(src="./images/instagram-item2.jpg" alt="inst")
+							li.instagram-item
+								a(href="#").instagram__href
+									img(src="./images/instagram-item3.jpg" alt="inst")
+							li.instagram-item
+								a(href="#").instagram__href
+									img(src="./images/instagram-item4.jpg" alt="inst")
+							li.instagram-item
+								a(href="#").instagram__href
+									img(src="./images/instagram-item5.jpg" alt="inst")
+								
+
+							
+
+			
+		include footer/_footer
+		include droplist/_droplist
+		include droplist/_droplist-abc
+		
+		include scripts/_scripts
+
+
+
+
+
+
+
+

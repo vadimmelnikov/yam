@@ -1,0 +1,109 @@
+// input[type="radio"] {
+//   display: none;
+//   opacity: 0;
+// }
+
+// label.label-radio span {
+//   background: url('../images/chek.png') no-repeat;
+//   padding-left: 21px;
+//     line-height: 18px;
+//     height: 15px;
+//     -webkit-transition: all 0s;
+//     transition: all 0s;
+// }
+
+// /* Смещения для невыбранной и выбранной радиокнопки */
+
+
+// label.label-radio input[type="radio"]:checked + span {
+//   background: url('../images/chek-on.png') no-repeat;
+// }
+
+.owl-theme .owl-controls {
+    margin-top: 10px;
+    text-align: center;
+}
+.owl-controls{
+    position: relative;
+    bottom: 60px;
+
+}
+.owl-theme .owl-controls .owl-page span{
+    border-radius: 0;
+    width: 15px;
+    height: 15px;
+    margin: 0 8px;
+    background: #ccc;
+    opacity: 1;
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span{
+    opacity: 1;
+    background: #a49583;
+}
+.owl-carousel .owl-wrapper-outer {
+  transition:none;
+}
+
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+    bottom: 30px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:focus{
+    background: #ccc;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #a49583;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: #ccc;
+}
+
+.bx-wrapper .bx-prev {
+    left: 0;
+    -webkit-transition: all 0s;
+    background: url('../images/left.png') no-repeat;
+    width: 37px;
+    height: 37px;
+}
+
+.bx-viewport {
+    height: auto !important;
+}
+
+.bx-wrapper .bx-prev:hover,
+.bx-wrapper .bx-prev:focus {
+    background-position: 0;
+}
+
+.bx-wrapper .bx-prev:hover {
+    // opacity: 0.4;
+}
+
+.bx-wrapper .bx-next:hover,
+.bx-wrapper .bx-next:focus {
+    background-position: 0;
+}
+
+.bx-wrapper .bx-next:hover {
+    opacity: 0.4;
+}
+
+.bx-wrapper .bx-next {
+    right: 0;
+    transition: all 0s;
+    background: url('../images/right.png') no-repeat;
+    width: 37px;
+    height: 37px;
+}
+
+.bx-wrapper .bx-controls-direction a {
+    width: 37px;
+    height: 37px;
+    display: none;
+    @include anim();
+}
+.bx-wrapper:hover .bx-controls-direction a{
+    display: block;
+}
